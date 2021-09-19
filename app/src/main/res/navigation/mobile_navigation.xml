@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.info.bootcampweekthree.SplashFragment"
+        tools:layout="@layout/splash_fragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_battleFragment2"
+            app:destination="@id/battleFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/battleFragment2"
+        android:name="com.info.bootcampweekthree.BattleFragment"
+        tools:layout="@layout/battle_fragment"
+        android:label="BattleFragment" >
+        <action
+            android:id="@+id/action_battleFragment2_to_deckFragment2"
+            app:destination="@id/deckFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/deckFragment2"
+        android:name="com.info.bootcampweekthree.DeckFragment"
+        tools:layout="@layout/deck_fragment"
+        android:label="DeckFragment" >
+        <action
+            android:id="@+id/action_deckFragment2_to_profileFragment2"
+            app:destination="@id/profileFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.info.bootcampweekthree.ProfileFragment"
+        tools:layout="@layout/profile_fragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment2_to_avatarFragment"
+            app:destination="@id/avatarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/avatarFragment"
+        android:name="com.info.bootcampweekthree.AvatarFragment"
+        tools:layout="@layout/avatar_fragment"
+        android:label="AvatarFragment" />
+</navigation>

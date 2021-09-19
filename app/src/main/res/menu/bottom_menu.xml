@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/battleFragment2"
+        android:title="Battle"
+        android:icon="@drawable/ic_battlepassive"
+        />
+
+    <item
+        android:id="@+id/deckFragment2"
+        android:title="Decklerim"
+        android:icon="@drawable/ic_deckpassive"/>
+
+    <item
+        android:id="@+id/profileFragment2"
+        android:title="Profile"
+        android:icon="@drawable/ic_profilepassive"/>
+
+</menu>
